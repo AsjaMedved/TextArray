@@ -11,7 +11,7 @@ public class StatsService {
 
     public long averageSales(long[] sales) {
         long averageSales = sumSales(sales) / sales.length;
-        return  averageSales;
+        return averageSales;
     }
 
     public int maxSales(long[] sales) {
